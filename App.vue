@@ -6,17 +6,17 @@
 			
 			var that = this;
 
-			await that.$u.api.Abuot().then(res => {
-				console.log('--小程序生命周期--')
-				getApp().globalData.isPro = res.data.is_pro == '1'
-				if (!getApp().globalData.isPro) {
-					//审核时使用审核模板
-					console.log('审核')
-					uni.redirectTo({
-						url: '/pages/test/test'
-					})
-				}
-			})
+			// await that.$u.api.Abuot().then(res => {
+			// 	console.log('--小程序生命周期--')
+			// 	getApp().globalData.isPro = res.data.is_pro == '1'
+			// 	if (!getApp().globalData.isPro) {
+			// 		//审核时使用审核模板
+			// 		console.log('审核')
+			// 		uni.redirectTo({
+			// 			url: '/pages/test/test'
+			// 		})
+			// 	}
+			// })
 			this.$isResolve()
 			
 
