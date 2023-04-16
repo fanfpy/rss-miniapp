@@ -1,0 +1,7 @@
+node_modules/
+uni_modules/
+.vscode/
+/unpackage/  
+.DS_Store  
+*/.DS_Store
+unpackage/
