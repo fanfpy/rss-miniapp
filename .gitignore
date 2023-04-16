@@ -5,3 +5,4 @@ uni_modules/
 .DS_Store  
 */.DS_Store
 unpackage/
+.vs/
